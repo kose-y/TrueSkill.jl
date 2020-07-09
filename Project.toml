@@ -1,7 +1,10 @@
 name = "TrueSkill"
 uuid = "f37d3882-d878-4a7b-89a5-2d9832311052"
-authors = ["Seyoon Ko <syko0507@snu.ac.kr> and contributors"]
+authors = ["Seyoon Ko <syko0507@snu.ac.kr>"]
 version = "0.1.0"
+
+[deps]
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
 [compat]
 julia = "1"
