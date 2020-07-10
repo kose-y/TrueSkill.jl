@@ -1,5 +1,4 @@
-
-struct TrueSkillEnv
+mutable struct TrueSkillEnv
     mu::Float64
     sigma::Float64
     beta::Float64
@@ -319,7 +318,7 @@ function make_as_global(env::TrueSkillEnv)
     GLOBAL_ENV = env
 end
 
-function rate_1vs1(rating1::Rating, rating2::Rating, drawn=false; min_delta=DELTA)
+function rate(rating1::Rating, rating2::Rating; drawn=false, min_delta=DELTA)
     if drawn
         ranks = [0, 0]
     else
@@ -329,7 +328,7 @@ function rate_1vs1(rating1::Rating, rating2::Rating, drawn=false; min_delta=DELT
     return teams[1][1], teams[2][1]
 end
 
-function rate_freeforall(ratings::Vector{Rating}; ranks=1:length(ratings), min_delta=DELTA) 
+function rate(ratings::Vector{Rating}; ranks=1:length(ratings), min_delta=DELTA) 
     teams = rate(map(x -> [x], ratings); ranks=ranks, min_delta=min_delta)
     return map(x -> x[1], teams)
 end

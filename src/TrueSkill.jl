@@ -1,6 +1,6 @@
 module TrueSkill
     import Base: show, isless, *, /
-    export TrueSkillEnv, Rating, expose, rate, rate_1vs1 , rate_freeforall
+    export TrueSkillEnv, Rating, expose, rate
     include("gaussian.jl")
     include("factorgraph.jl")
     include("distribution.jl")
