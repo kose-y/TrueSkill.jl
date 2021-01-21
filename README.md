@@ -2,7 +2,7 @@
 
 TrueSkill, the video game rating system
 
-Julia translation of the Python [TrueSkill](trueskill.org) project. See [LICENSE](LICENSE).
+Julia translation of the Python [TrueSkill](https://trueskill.org) project. See [LICENSE](LICENSE).
 
 ## What is TrueSkill?
 
