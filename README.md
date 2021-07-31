@@ -179,4 +179,11 @@ t1, t2 = rate([t1, t2]) # t1 defeats t2
      [Rating(mu=33.73067114899642, sigma=7.317365362867211)]
      [Rating(mu=16.269328851003575, sigma=7.317365362867211), Rating(mu=16.269328851003575, sigma=7.317365362867211)]
 
+## References
 
+The core ideas used in this project were described in
+"TrueSkill (TM): A Bayesian Skill Rating System" available at
+http://research.microsoft.com/apps/pubs/default.aspx?id=67956
+
+Some concepts were based on Jeff Moser's code and documents, available
+at http://www.moserware.com/2010/03/computing-your-skill.html
