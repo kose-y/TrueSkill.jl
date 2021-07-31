@@ -2,7 +2,14 @@
 
 TrueSkill, the video game rating system
 
-Julia translation of the Python [TrueSkill](https://trueskill.org) project. See [LICENSE](LICENSE).
+Julia translation of the Python [TrueSkill](https://trueskill.org) project.
+
+## Caution
+
+This TrueSkill project is opened under the BSD license but the
+TrueSkill(TM) brand is not. Microsoft permits only Xbox Live games or
+non-commercial projects to use TrueSkill(TM). If your project is
+commercial, you should find another rating system.
 
 ## What is TrueSkill?
 
