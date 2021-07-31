@@ -1,24 +1,3 @@
-Caution
-=======
-
-This TrueSkill project is opened under the BSD license but the
-TrueSkill(TM) brand is not. Microsoft permits only Xbox Live games or
-non-commercial projects to use TrueSkill(TM). If your project is
-commercial, you should find another rating system.
-
-References
-==========
-
-The core ideas used in this project were described in
-"TrueSkill (TM): A Bayesian Skill Rating System" available at
-http://research.microsoft.com/apps/pubs/default.aspx?id=67956
-
-Some concepts were based on Jeff Moser's code and documents, available
-at http://www.moserware.com/2010/03/computing-your-skill.html
-
-License
-=======
-
 Copyright (c) 2020 by Seyoon Ko. All rights reserved.
 
 This project is derived from the Python code and the documentation by:
